@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432D2C511D3721DA0014C989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C501D3721DA0014C989 /* main.m */; };
+		432D2C541D3721DA0014C989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C531D3721DA0014C989 /* AppDelegate.m */; };
+		432D2C571D3721DA0014C989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C561D3721DA0014C989 /* ViewController.m */; };
+		432D2C5A1D3721DA0014C989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432D2C581D3721DA0014C989 /* Main.storyboard */; };
+		432D2C5C1D3721DA0014C989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432D2C5B1D3721DA0014C989 /* Assets.xcassets */; };
+		432D2C5F1D3721DA0014C989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432D2C5D1D3721DA0014C989 /* LaunchScreen.storyboard */; };
+		432D2C6A1D3721DB0014C989 /* HYFDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C691D3721DB0014C989 /* HYFDownloadManagerTests.m */; };
+		432D2C751D3721DB0014C989 /* HYFDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C741D3721DB0014C989 /* HYFDownloadManagerUITests.m */; };
+		432D2C851D37225D0014C989 /* HYFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C841D37225D0014C989 /* HYFDownloadManager.m */; };
+		432D2C881D3742B80014C989 /* HYFSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D2C871D3742B80014C989 /* HYFSessionModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432D2C661D3721DB0014C989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432D2C441D3721DA0014C989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432D2C4B1D3721DA0014C989;
+			remoteInfo = HYFDownloadManager;
+		};
+		432D2C711D3721DB0014C989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432D2C441D3721DA0014C989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432D2C4B1D3721DA0014C989;
+			remoteInfo = HYFDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		432D2C4C1D3721DA0014C989 /* HYFDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYFDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		432D2C501D3721DA0014C989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		432D2C521D3721DA0014C989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		432D2C531D3721DA0014C989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		432D2C551D3721DA0014C989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		432D2C561D3721DA0014C989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		432D2C591D3721DA0014C989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432D2C5B1D3721DA0014C989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432D2C5E1D3721DA0014C989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432D2C601D3721DA0014C989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432D2C651D3721DB0014C989 /* HYFDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432D2C691D3721DB0014C989 /* HYFDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFDownloadManagerTests.m; sourceTree = "<group>"; };
+		432D2C6B1D3721DB0014C989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432D2C701D3721DB0014C989 /* HYFDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYFDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432D2C741D3721DB0014C989 /* HYFDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFDownloadManagerUITests.m; sourceTree = "<group>"; };
+		432D2C761D3721DB0014C989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432D2C831D37225D0014C989 /* HYFDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFDownloadManager.h; sourceTree = "<group>"; };
+		432D2C841D37225D0014C989 /* HYFDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFDownloadManager.m; sourceTree = "<group>"; };
+		432D2C861D3742B80014C989 /* HYFSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFSessionModel.h; sourceTree = "<group>"; };
+		432D2C871D3742B80014C989 /* HYFSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFSessionModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432D2C491D3721DA0014C989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432D2C621D3721DB0014C989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432D2C6D1D3721DB0014C989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432D2C431D3721DA0014C989 = {
+			isa = PBXGroup;
+			children = (
+				432D2C4E1D3721DA0014C989 /* HYFDownloadManager */,
+				432D2C681D3721DB0014C989 /* HYFDownloadManagerTests */,
+				432D2C731D3721DB0014C989 /* HYFDownloadManagerUITests */,
+				432D2C4D1D3721DA0014C989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432D2C4D1D3721DA0014C989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432D2C4C1D3721DA0014C989 /* HYFDownloadManager.app */,
+				432D2C651D3721DB0014C989 /* HYFDownloadManagerTests.xctest */,
+				432D2C701D3721DB0014C989 /* HYFDownloadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432D2C4E1D3721DA0014C989 /* HYFDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				432D2C821D3722020014C989 /* LoadManager */,
+				432D2C521D3721DA0014C989 /* AppDelegate.h */,
+				432D2C531D3721DA0014C989 /* AppDelegate.m */,
+				432D2C551D3721DA0014C989 /* ViewController.h */,
+				432D2C561D3721DA0014C989 /* ViewController.m */,
+				432D2C581D3721DA0014C989 /* Main.storyboard */,
+				432D2C5B1D3721DA0014C989 /* Assets.xcassets */,
+				432D2C5D1D3721DA0014C989 /* LaunchScreen.storyboard */,
+				432D2C601D3721DA0014C989 /* Info.plist */,
+				432D2C4F1D3721DA0014C989 /* Supporting Files */,
+			);
+			path = HYFDownloadManager;
+			sourceTree = "<group>";
+		};
+		432D2C4F1D3721DA0014C989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				432D2C501D3721DA0014C989 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		432D2C681D3721DB0014C989 /* HYFDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				432D2C691D3721DB0014C989 /* HYFDownloadManagerTests.m */,
+				432D2C6B1D3721DB0014C989 /* Info.plist */,
+			);
+			path = HYFDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		432D2C731D3721DB0014C989 /* HYFDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				432D2C741D3721DB0014C989 /* HYFDownloadManagerUITests.m */,
+				432D2C761D3721DB0014C989 /* Info.plist */,
+			);
+			path = HYFDownloadManagerUITests;
+			sourceTree = "<group>";
+		};
+		432D2C821D3722020014C989 /* LoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				432D2C831D37225D0014C989 /* HYFDownloadManager.h */,
+				432D2C841D37225D0014C989 /* HYFDownloadManager.m */,
+				432D2C861D3742B80014C989 /* HYFSessionModel.h */,
+				432D2C871D3742B80014C989 /* HYFSessionModel.m */,
+			);
+			path = LoadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432D2C4B1D3721DA0014C989 /* HYFDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432D2C791D3721DB0014C989 /* Build configuration list for PBXNativeTarget "HYFDownloadManager" */;
+			buildPhases = (
+				432D2C481D3721DA0014C989 /* Sources */,
+				432D2C491D3721DA0014C989 /* Frameworks */,
+				432D2C4A1D3721DA0014C989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYFDownloadManager;
+			productName = HYFDownloadManager;
+			productReference = 432D2C4C1D3721DA0014C989 /* HYFDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		432D2C641D3721DB0014C989 /* HYFDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432D2C7C1D3721DB0014C989 /* Build configuration list for PBXNativeTarget "HYFDownloadManagerTests" */;
+			buildPhases = (
+				432D2C611D3721DB0014C989 /* Sources */,
+				432D2C621D3721DB0014C989 /* Frameworks */,
+				432D2C631D3721DB0014C989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432D2C671D3721DB0014C989 /* PBXTargetDependency */,
+			);
+			name = HYFDownloadManagerTests;
+			productName = HYFDownloadManagerTests;
+			productReference = 432D2C651D3721DB0014C989 /* HYFDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		432D2C6F1D3721DB0014C989 /* HYFDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432D2C7F1D3721DB0014C989 /* Build configuration list for PBXNativeTarget "HYFDownloadManagerUITests" */;
+			buildPhases = (
+				432D2C6C1D3721DB0014C989 /* Sources */,
+				432D2C6D1D3721DB0014C989 /* Frameworks */,
+				432D2C6E1D3721DB0014C989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432D2C721D3721DB0014C989 /* PBXTargetDependency */,
+			);
+			name = HYFDownloadManagerUITests;
+			productName = HYFDownloadManagerUITests;
+			productReference = 432D2C701D3721DB0014C989 /* HYFDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432D2C441D3721DA0014C989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "万商维盟";
+				TargetAttributes = {
+					432D2C4B1D3721DA0014C989 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					432D2C641D3721DB0014C989 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 432D2C4B1D3721DA0014C989;
+					};
+					432D2C6F1D3721DB0014C989 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 432D2C4B1D3721DA0014C989;
+					};
+				};
+			};
+			buildConfigurationList = 432D2C471D3721DA0014C989 /* Build configuration list for PBXProject "HYFDownloadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432D2C431D3721DA0014C989;
+			productRefGroup = 432D2C4D1D3721DA0014C989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432D2C4B1D3721DA0014C989 /* HYFDownloadManager */,
+				432D2C641D3721DB0014C989 /* HYFDownloadManagerTests */,
+				432D2C6F1D3721DB0014C989 /* HYFDownloadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432D2C4A1D3721DA0014C989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432D2C5F1D3721DA0014C989 /* LaunchScreen.storyboard in Resources */,
+				432D2C5C1D3721DA0014C989 /* Assets.xcassets in Resources */,
+				432D2C5A1D3721DA0014C989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432D2C631D3721DB0014C989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432D2C6E1D3721DB0014C989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432D2C481D3721DA0014C989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432D2C571D3721DA0014C989 /* ViewController.m in Sources */,
+				432D2C851D37225D0014C989 /* HYFDownloadManager.m in Sources */,
+				432D2C541D3721DA0014C989 /* AppDelegate.m in Sources */,
+				432D2C881D3742B80014C989 /* HYFSessionModel.m in Sources */,
+				432D2C511D3721DA0014C989 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432D2C611D3721DB0014C989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432D2C6A1D3721DB0014C989 /* HYFDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432D2C6C1D3721DB0014C989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432D2C751D3721DB0014C989 /* HYFDownloadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432D2C671D3721DB0014C989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432D2C4B1D3721DA0014C989 /* HYFDownloadManager */;
+			targetProxy = 432D2C661D3721DB0014C989 /* PBXContainerItemProxy */;
+		};
+		432D2C721D3721DB0014C989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432D2C4B1D3721DA0014C989 /* HYFDownloadManager */;
+			targetProxy = 432D2C711D3721DB0014C989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		432D2C581D3721DA0014C989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432D2C591D3721DA0014C989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432D2C5D1D3721DA0014C989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432D2C5E1D3721DA0014C989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432D2C771D3721DB0014C989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432D2C781D3721DB0014C989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432D2C7A1D3721DB0014C989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYFDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.HYFDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		432D2C7B1D3721DB0014C989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYFDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.HYFDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		432D2C7D1D3721DB0014C989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYFDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.HYFDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFDownloadManager.app/HYFDownloadManager";
+			};
+			name = Debug;
+		};
+		432D2C7E1D3721DB0014C989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYFDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.HYFDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYFDownloadManager.app/HYFDownloadManager";
+			};
+			name = Release;
+		};
+		432D2C801D3721DB0014C989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYFDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.HYFDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYFDownloadManager;
+			};
+			name = Debug;
+		};
+		432D2C811D3721DB0014C989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYFDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.HYFDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYFDownloadManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432D2C471D3721DA0014C989 /* Build configuration list for PBXProject "HYFDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432D2C771D3721DB0014C989 /* Debug */,
+				432D2C781D3721DB0014C989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432D2C791D3721DB0014C989 /* Build configuration list for PBXNativeTarget "HYFDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432D2C7A1D3721DB0014C989 /* Debug */,
+				432D2C7B1D3721DB0014C989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432D2C7C1D3721DB0014C989 /* Build configuration list for PBXNativeTarget "HYFDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432D2C7D1D3721DB0014C989 /* Debug */,
+				432D2C7E1D3721DB0014C989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432D2C7F1D3721DB0014C989 /* Build configuration list for PBXNativeTarget "HYFDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432D2C801D3721DB0014C989 /* Debug */,
+				432D2C811D3721DB0014C989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432D2C441D3721DA0014C989 /* Project object */;
+}
